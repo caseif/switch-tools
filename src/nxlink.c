@@ -9,7 +9,7 @@
 #include <getopt.h>
 #include <errno.h>
 
-#ifndef __WIN32__
+#ifndef _WIN32
 #include <sys/socket.h>
 #include <arpa/inet.h>
 #include <netinet/in.h>
